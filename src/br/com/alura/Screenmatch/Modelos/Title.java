@@ -1,6 +1,6 @@
 package br.com.alura.Screenmatch.Modelos;
 
-public class Titulo {
+public class Title {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -9,7 +9,7 @@ public class Titulo {
     private int  duracaoEmMinutos;
 
     //Arraylist
-    public Titulo(String nome, int anoDeLancamento) {
+    public Title(String nome, int anoDeLancamento) {
         this.nome = nome;
         this.anoDeLancamento = anoDeLancamento;
     }

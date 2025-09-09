@@ -1,13 +1,13 @@
 package br.com.alura.Screenmatch.Modelos;
 
-public class Serie extends Titulo {
+public class Series extends Title {
     private int temporadas;
     private boolean ativa;
     private int episodiosPorTemporadas;
     private int minutosPorEpisodios;
 
     //Arraylist
-    public Serie(String nome, int anoDeLancamento) {
+    public Series(String nome, int anoDeLancamento) {
         super(nome, anoDeLancamento);
     }
 

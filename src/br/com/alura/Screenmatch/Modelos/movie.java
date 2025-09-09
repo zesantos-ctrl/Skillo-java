@@ -3,11 +3,11 @@ package br.com.alura.Screenmatch.Modelos;
 
 import br.com.alura.Screenmatch.Calculo.Classificado;
 
-public class Filme extends Titulo implements Classificado {
+public class movie extends Title implements Classificado {
     private String diretor;
 
     //arraylist
-    public Filme(String nome, int anoDeLancamento) {
+    public movie(String nome, int anoDeLancamento) {
       super(nome,anoDeLancamento);
     }
 

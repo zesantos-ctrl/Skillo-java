@@ -5,7 +5,7 @@ import br.com.alura.Screenmatch.Calculo.Classificado;
 public class Episodio implements Classificado {
     private int numero;
     private String nome;
-    private Serie serie;
+    private Series serie;
     private int totalVisualizacoes;
 
     public int getTotalVisualizacoes() {
@@ -32,11 +32,11 @@ public class Episodio implements Classificado {
         this.nome = nome;
     }
 
-    public Serie getSerie() {
+    public Series getSerie() {
         return serie;
     }
 
-    public void setSerie(Serie serie) {
+    public void setSerie(Series serie) {
         this.serie = serie;
 
     }
