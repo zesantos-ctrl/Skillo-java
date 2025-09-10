@@ -1,13 +1,13 @@
 package br.com.alura.Screenmatch.Calculo;
 
 
-import br.com.alura.Screenmatch.Modelos.Title;
+import br.com.alura.Screenmatch.Modelos.Titulo;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;
 
 
-   public void inclui(Title titulo) {
+   public void inclui(Titulo titulo) {
        this.tempoTotal += titulo.getDuracaoEmMinutos();
    }
 
