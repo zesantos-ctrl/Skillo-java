@@ -22,8 +22,10 @@ public class principalComListas {
         lista.add(horaDeAventura);
         for (Titulo item: lista) {
             System.out.println(item.getNome());
-            Filme filme = (Filme) item; //Casting explicito
-            System.out.println("Classificação " + filme.getClassificacao());
+            if (item instanceof Filme filme && filme.getClassificacao() > 2) {
+                System.out.println("Classificação " + filme.getClassificacao());
+            }
+
 
         }
     }
