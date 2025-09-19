@@ -13,10 +13,12 @@ public class PrincioalComBusca {
         System.out.println("Digite um filme para busca: ");
         var busca = leitura.nextLine();
 
+        String endereco = "https://www.omdbapi.com/?t=" + busca + "&apikey=dc83c06";
+
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://www.omdbapi.com/?t=matrix&apikey=dc83c06"))
+                .uri(URI.create(endereco))
                 .build();
 
         HttpResponse<String> response = client
